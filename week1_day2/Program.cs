@@ -29,7 +29,42 @@ namespace week1_day2
             Console.WriteLine(number);
             Console.WriteLine(partialNum);
             Console.WriteLine(someNum);
-            Console.WriteLine(firstInitial);
-            Console.WriteLine(isTired);        }
+            // Console.WriteLine(firstInitial);
+            // Console.WriteLine(isTired);    
+
+            //Now, lets talk about operators!
+            // ARITHMATIC OPERATORS
+            // + adds two operands
+            // - Subtracts the second operand first
+            // * multiplies both numbers
+            // / as an operator, it divides one operand by another
+            // % - Modulus - checks the remainder
+            // ++ Increments operator by one and is used for ints primarily
+            // -- Decrements operator by one and is used for ints primarily
+
+            //RELATIONAL OPERATORS
+            // == Checks if the values of two operands are equal 
+            // and if they are, returns bool true
+            // != Checks is values of two operands are ewual or
+            // not, and if values are NOT equal , returns bool true.
+
+            int jarrydAge = 29;
+            int danielAge = 32;
+            Console.WriteLine(jarrydAge == danielAge);
+
+            /*
+             * > Checks if the value on the left of the operand is greater than the value of the right of the operand
+             * and if yes then condition is true
+             * < Checks if the value on the left of the operand is less than the value of the right of the operand 
+             * and if yes then condition is true
+             * 
+             * >= Checks is the value of the left operand is greater than or equal to the value of the right operand and 
+             * if yes then condition is true
+             * 
+             * <= Checks if the value on the left is less than or equal to the value on the right of the operand and
+             * if yes then condition is true
+             * /
+
+        }
     }
 }
